@@ -1,0 +1,10 @@
+package com.global.produits.security;
+
+public interface secParams {
+	
+	public static final long EXP_TIME = 10*24*60*60;
+	public static final String SECRET = "nadhemb@yahoo.com";
+	public static final String PREFIX = "Bearer ";
+
+
+}
